@@ -8,9 +8,49 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
 
-  Hello World
+  <header class="header">
+    <h3 class="header__title">DoT</h3>
+    <img class="header__img" src="https://blog.dawnoftitans.com/wp-content/uploads/2020/07/FormBanner-2048x431.png"
+      alt="">
+  </header>
+
+  <section class="count">
+    <div action="" method="" class="count__form">
+      <div class="count__form-section">
+        <label class="count__form-label" for="ratio">
+          Коэфициент усиления титана:
+        </label>
+        <br>
+        <input class="count__form-input count__form-inputRatio" type="text" name="ratio" id="ratio"
+          placeholder="введите коэфициент усиления титана: " required>
+      </div>
+      <div class="count__form-section">
+        <label class="count__form-label" for="souls">
+          Количество душ:
+        </label>
+        <br>
+        <input class="count__form-input count__form-inputSouls" type="text" name="souls" id="souls" placeholder="введите количество душ: "
+          required>
+      </div>
+      <div class="count__form-submit">
+        <button class="count__form-btn">
+          Посчитать
+        </button>
+      </div>
+    </div>
+    <hr>
+
+    <div class="count__form-fights">
+      Боев: <span class="count__form-fightsCount"></span>
+    </div>
+    <div class="count__form-gems">
+      Красных: <span class="count__form-gemsCount"></span>
+    </div>
+  </section>
 
 </body>
+
 </html>
