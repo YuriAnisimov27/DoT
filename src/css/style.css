@@ -4,3 +4,99 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.header {
+  width: 80%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.header__title {
+  text-align: center;
+  color: #eee;
+}
+
+.header__img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.count {
+  width: 80%;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  margin: 40px auto;
+}
+
+.count-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count__form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count__form-label {
+  margin-top: 10px;
+  color: #eee;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.count__form-input {
+  width: 90%;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  text-align: center;
+  border: none;
+}
+
+.count__form-submit {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.count__form-btn {
+  width: 91.4%;
+  height: 30px;
+  border: none;
+  outline: none;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: #eee;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  background: rgb(27, 22, 22);
+}
+
+.count__form-btn:hover {
+  cursor: pointer;
+}
+
+.count__form-fights, .count__form-gems {
+  margin: 10px auto;
+  width: 90%;
+  color: #eee;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  padding: 5px;
+}
