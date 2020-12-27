@@ -23,7 +23,7 @@ window.addEventListener('load', () => {
     }
 
     const fightsCount = Math.ceil(soulsValue / (10 * parseFloat(ratioValue)));
-    const gemsCount = fightsCount * 18;
+    const gemsCount = Math.ceil(18 * (soulsValue / (10 * parseFloat(ratioValue))));
 
     if (Number.isNaN(fightsCount)) {
       fights.innerHTML = 'Проверьте данные которые вы вводите';
