@@ -17,26 +17,28 @@ body {
   color: #eee;
 }
 
+.header__title-link {
+  color: #eee;
+  text-decoration: none;
+}
+
+.header__title-link:hover {
+  color: #fff;
+}
+
 .header__img {
   width: 100%;
   border-radius: 5px;
 }
 
-.count {
+.count, .eventRelic{
   width: 80%;
   border: 2px solid #eee;
   border-radius: 5px;
   margin: 40px auto;
 }
 
-.count-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.count__form-section {
+.count-form, .count__form-section, .eventRelic-ratio  {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,6 +51,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.5px;
+  text-align: center;
 }
 
 .count__form-input {
@@ -89,7 +92,7 @@ body {
   cursor: pointer;
 }
 
-.count__form-fights, .count__form-gems {
+.count__form-fights, .count__form-gems, .eventRecic-counter, .eventRecic-result {
   margin: 10px auto;
   width: 90%;
   color: #eee;
@@ -99,4 +102,46 @@ body {
   border: 2px solid #eee;
   border-radius: 5px;
   padding: 5px;
+}
+
+.eventRelic-btnsGroup {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.eventRelic-btnsGroup-btn {
+  width: 15%;
+  height: 30px;
+  color: #eee;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.eventRecic-reset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 24px;
+  border: none;
+  outline: none;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  color: #eee;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  background: rgb(27, 22, 22);
+  margin-bottom: 10px;
+  cursor: pointer;
 }
