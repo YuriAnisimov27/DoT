@@ -12,13 +12,15 @@
 <body>
 
   <header class="header">
-    <h3 class="header__title">DoT</h3>
+    <h3 class="header__title">
+      <a class="header__title-link" target="_blank" href="https://blog.dawnoftitans.com/">DoT</a>
+    </h3>
     <img class="header__img" src="https://blog.dawnoftitans.com/wp-content/uploads/2020/07/FormBanner-2048x431.png"
       alt="">
   </header>
 
   <section class="count">
-    <div action="" method="" class="count__form">
+    <div class="count__form">
       <div class="count__form-section">
         <label class="count__form-label" for="ratio">
           Коэфициент усиления титана:
@@ -32,8 +34,8 @@
           Количество душ:
         </label>
         <br>
-        <input class="count__form-input count__form-inputSouls" type="text" name="souls" id="souls" placeholder="введите количество душ: "
-          required>
+        <input class="count__form-input count__form-inputSouls" type="text" name="souls" id="souls"
+          placeholder="введите количество душ: " required>
       </div>
       <div class="count__form-submit">
         <button class="count__form-btn">
@@ -48,6 +50,61 @@
     </div>
     <div class="count__form-gems">
       Красных: <span class="count__form-gemsCount"></span>
+    </div>
+  </section>
+
+  <section class="eventRelic">
+    <div class="eventRelic-ratio">
+      <label class="count__form-label" for="ratio-event">
+        Коэфициент усиления титана:
+      </label>
+      <br>
+      <input class="count__form-input count__form-inputRatio" type="text" name="ratio-event" id="ratio-event"
+        placeholder="введите коэфициент усиления титана: " required>
+
+      <label class="count__form-label" for="ratio-event">
+        Реликвия, увеличивающая количество душ за бой:
+      </label>
+      <br>
+      <div class="eventRelic-btnsGroup">
+        <div class="eventRelic-btnsGroup-btn">
+          1
+          <span class="material-icons">
+            grade
+          </span>
+        </div>
+        <div class="eventRelic-btnsGroup-btn">
+          2
+          <span class="material-icons">
+            grade
+          </span>
+        </div>
+        <div class="eventRelic-btnsGroup-btn">
+          3
+          <span class="material-icons">
+            grade
+          </span>
+        </div>
+        <div class="eventRelic-btnsGroup-btn">
+          4
+          <span class="material-icons">
+            grade
+          </span>
+        </div>
+        <div class="eventRelic-btnsGroup-btn">
+          5
+          <span class="material-icons">
+            grade
+          </span>
+        </div>
+      </div>
+
+      <div class="eventRecic-counter"></div>
+      <div class="eventRecic-result">0</div>
+
+      <div class="eventRecic-reset">
+        Сбросить
+      </div>
     </div>
   </section>
 
